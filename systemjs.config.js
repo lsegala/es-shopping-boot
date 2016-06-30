@@ -6,7 +6,7 @@
     'rxjs':                       'node_modules/rxjs',
     'angular2-in-memory-web-api': 'node_modules/angular2-in-memory-web-api',
     '@angular':                   'node_modules/@angular',
-'primeng':                        'node_modules/primeng'
+    'primeng':                    'node_modules/primeng'
   };
 
   // packages tells the System loader how to load when no filename and/or no extension
@@ -28,7 +28,7 @@
     '@angular/router-deprecated',
     '@angular/testing',
     '@angular/upgrade',
-    '@angular/router-deprecated'
+    '@angular/forms'
   ];
 
   // add package entries for angular packages in the form '@angular/common': { main: 'index.js', defaultExtension: 'js' }
