@@ -1,14 +1,14 @@
 import {Component} from '@angular/core';
-import {HTTP_PROVIDERS} from '@angular/http';
-import {InputText,DataTable,Button,Dialog,Column,Header,Footer} from 'primeng/primeng';
 import {Car} from './cars/car';
 import {CarService} from './cars/carservice';
 
+class PrimeCar implements Car {
+    constructor(public vin?, public year?, public brand?, public color?) {}
+}
+
 @Component({
 	templateUrl: 'app/app.component.html',
-	selector: 'my-app',
-    directives: [InputText,DataTable,Button,Dialog,Column,Header,Footer],
-	providers: [HTTP_PROVIDERS,CarService]
+	selector: 'my-app'
 })
 export class AppComponent {
 
@@ -67,9 +67,4 @@ export class AppComponent {
     findSelectedCarIndex(): number {
         return this.cars.indexOf(this.selectedCar);
     }
-}
-
-class PrimeCar implements Car {
-
-    constructor(public vin?, public year?, public brand?, public color?) {}
 }
