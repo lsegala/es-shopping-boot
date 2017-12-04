@@ -1,0 +1,5 @@
+<p-carousel headerText="Destaques" [value]="itens" numVisible="5" autoplayInterval="3000">
+  <ng-template let-item pTemplate="item">
+    <app-thumbnail [src]="item.thumb" [descricao]="item.descricao" [preco]="item.preco" (avaliacaoRealizada)="tratarAvaliacao($event)"></app-thumbnail>
+  </ng-template>
+</p-carousel>

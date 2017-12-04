@@ -1,0 +1,6 @@
+<div style="text-align: center">
+  <img src="{{src}}" pTooltip="{{descricao}}"/><br/>
+  <p-rating [ngModel]="avalicao" (onRate)="avaliar($event)" [cancel]="false"></p-rating>
+  <span style="float: left; margin-left: 1em; font-weight: bold;">R$ {{preco|number}}</span>
+  <a href="#" style="float: right; margin-right: 1em;" title="Adicionar ao carrinho"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+</div>
