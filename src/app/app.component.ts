@@ -2,19 +2,14 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'my-app',
-  template: `
-        <input type="text" [(ngModel)]="name" pInputText>
-        <button type="button" pButton label="Click" icon="fa fa-check" (click)="onClick($event)"></button>
-        
-        <div>{{message}}</div>
-  `
+  templateUrl: '/app/app.component.html'
 })
-export class AppComponent { 
-    
-    name: string; 
-    
+export class AppComponent {
+
+    name: string;
+
     message: string;
-    
+
     onClick() {
         this.message = 'Hello ' + this.name;
     }
