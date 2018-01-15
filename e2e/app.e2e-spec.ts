@@ -1,14 +1,14 @@
-import { EsShoopingBootWebPage } from './app.po';
+import { PqPage } from './app.po';
 
-describe('es-shooping-boot-web App', () => {
-  let page: EsShoopingBootWebPage;
+describe('pq App', () => {
+  let page: PqPage;
 
   beforeEach(() => {
-    page = new EsShoopingBootWebPage();
+    page = new PqPage();
   });
 
-  it('should display welcome message', () => {
+  it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
+    expect(page.getParagraphText()).toEqual('app works!');
   });
 });

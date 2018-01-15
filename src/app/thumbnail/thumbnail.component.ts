@@ -2,10 +2,11 @@ import {Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
 
 @Component({
   selector: 'app-thumbnail',
-  templateUrl: '/app/thumbnail/thumbnail.component.html',
-  styleUrls: ['/app/thumbnail/thumbnail.component.css']
+  templateUrl: './thumbnail.component.html',
+  styleUrls: ['./thumbnail.component.css']
 })
 export class ThumbnailComponent implements OnInit {
+  @Input() titulo : string;
   @Input() src : string;
   @Input() descricao : string;
   @Input() preco : number;

@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-itens-destaque',
-  templateUrl: '/app/itens-destaque/itens-destaque.component.html',
-  styleUrls: ['/app/itens-destaque/itens-destaque.component.css']
+  templateUrl: './itens-destaque.component.html',
+  styleUrls: ['./itens-destaque.component.css']
 })
 export class ItensDestaqueComponent implements OnInit {
   itens : any = [];
