@@ -54,3 +54,7 @@ Nome  | Uso
 * [Navegação](https://angular.io/guide/router)
   * Configuração
   * Links para rotas
+  
+## Elasticsearch API
+* [Site](https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/index.html)
+* [Instalação](https://github.com/elastic/elasticsearch-js)
