@@ -2,8 +2,6 @@
   <p-header title="{{titulo}}">{{titulo.substring(0, 20)}}...</p-header>
   <div style="text-align: center">
     <span style="float: left; margin-left: 1em; font-weight: bold;">R$ {{preco|number}}</span>
-    <a href="#" style="float: right; margin-right: 1em;" title="Adicionar ao carrinho"><span class="glyphicon glyphicon-shopping-cart"></span></a><br>
     <img src="{{src? src : '../../assets/img/placeholder.svg'}}" title="{{descricao}}"/>
   </div>
-  <p-footer><p-rating [(ngModel)]="avalicao"></p-rating></p-footer>
 </p-panel>

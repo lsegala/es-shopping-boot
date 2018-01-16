@@ -1,32 +1,51 @@
 # EsShoopingBootWeb
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.5.
+Com o propósito de unir conhecimentos, elaborei um exemplo prático usando spring boot, angular 4 e elasticsearch para 
+simular um ecommerce demonstrando assim os principais conceitos e diferenças para desenvolvedores acostuamdos com banco
+de dados relacionais a entender os pontos fortes envolvidos no modelo NoSQL voltado para busca.
 
-## Development server
+Esse exemplo será também utilizado para elaboração de um treinamento online e presencial para quem estiver interessado 
+em aprofundar seus conhecimentos e trocar figurinhas.
 
-Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Pré-requisitos
 
-## Code scaffolding
+[Link](requisitos.md)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+## Parte 1 - criando o esqueleto com angular-cli
 
-## Build
+Edite o arquivo .angular-cli.json e adicione as entradas ao array styles:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+```javascript
+"styles":[
+  "../node_modules/bootstrap/dist/css/bootstrap.css",
+  "../node_modules/bootstrap/dist/css/bootstrap-theme.css",
+  "../node_modules/primeng/resources/primeng.css",
+  "../node_modules/primeng/resources/themes/bootstrap/theme.css",
+  "../node_modules/font-awesome/css/font-awesome.css"
+  ]
+```
 
-## Running unit tests
+Crie os componentes da aplicação:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+# ng g component itens
+# ng g component menu
+# ng g component menu-lat
+# ng g component thumbnail
+```
 
-## Running end-to-end tests
+Crie o serviço que iremos ter com o backend
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+```bash
+# ng g service services/shopping
+```
 
-## Further help
+Adicione o serviço recém criado como provieder no arquivo app.module.ts:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```javascript
+providers: [ShoppingService]
+```
 
-## Tutorial Angular
+## Parte 2 - codificação inicial dos componentes
 
-[Aula 1](./angular4Intro.md)
+[Link](parte2.md)

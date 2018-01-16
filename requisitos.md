@@ -12,6 +12,10 @@
 # npm install -g @angular/cli`
 # ng new <nome_do_projeto>
 # cd <nome_do_projeto>
+# npm install primeng --save
+# npm install elasticsearch --save
+# npm install bootstrap --save
+# npm install font-awesome --save
 # ng serve
 ```
 * navegar para [localhost](http://localhost:4200)
