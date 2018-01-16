@@ -1,6 +1,10 @@
 Iremos codificar os componentes, mas ainda sem nos comunicarmos com o backend.
 
+Versão Inicial
 ![Versão Inicial](./src/assets/img/versao-inicial-pt1.png)
+
+Versão Final
+![Versão Final](./src/assets/img/versao-final-pt1.png)
 
 app.module.ts
 ```javascript
@@ -195,5 +199,3 @@ export class ShoppingService {
   }
 }
 ```
-
-![Versão Final](./src/assets/img/versao-final-pt1.png)
