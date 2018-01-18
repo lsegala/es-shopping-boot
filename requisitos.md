@@ -14,6 +14,7 @@
 # cd <nome_do_projeto>
 # npm install primeng --save
 # npm install elasticsearch --save
+# npm install @types/elasticsearch --save
 # npm install bootstrap --save
 # npm install font-awesome --save
 # ng serve

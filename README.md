@@ -49,3 +49,7 @@ providers: [ShoppingService]
 ## Parte 2 - codificação inicial dos componentes
 
 [Link](parte2.md)
+
+## Parte 3 - contactando o backend
+
+[Link](parte3.md)
