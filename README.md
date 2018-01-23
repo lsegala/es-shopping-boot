@@ -53,3 +53,7 @@ providers: [ShoppingService]
 ## Parte 3 - contactando o backend
 
 [Link](parte3.md)
+
+## Parte 4 - dando funcionalidade aos nossos controles com databind
+
+[Link](parte4.md)
