@@ -10,9 +10,9 @@ Crie os dados pelo kibana
 ```json
 PUT /_bulk
 { "index" : { "_index" : "shopping", "_type" : "itens"} }
-{ "preco" : 10, "titulo": "titulo 1", "thumbnail": "", "categoria": "Categoria 1" }
+{ "preco" : 10, "titulo": "titulo 1", "thumbnail": "", "categoria": "Categoria 1", "descricao": "descrição do produto 1" }
 { "index" : { "_index" : "shopping", "_type" : "itens"} }
-{ "preco" : 20, "titulo": "titulo 2", "thumbnail": "", "categoria": "Categoria 2" }
+{ "preco" : 20, "titulo": "titulo 2", "thumbnail": "", "categoria": "Categoria 2", "descricao": "descrição do produto 2" }
 ```
 
 Modifique a classe shopping.service.ts

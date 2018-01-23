@@ -149,7 +149,7 @@ itens.component.html
   <p-header>{{itens.length}} Itens Disponíveis</p-header>
   <ng-template let-item pTemplate="item">
     <div style="padding: 3px" class="ui-md-3">
-      <app-thumbnail [preco]="item.preco" [descricao]="item.titulo" [src]="item.thumbnail" [titulo]="item.titulo"></app-thumbnail>
+      <app-thumbnail [id]="item.id" [preco]="item.preco" [descricao]="item.titulo" [src]="item.thumbnail" [titulo]="item.titulo"></app-thumbnail>
     </div>
   </ng-template>
 </p-dataGrid>

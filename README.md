@@ -57,3 +57,7 @@ providers: [ShoppingService]
 ## Parte 4 - dando funcionalidade aos nossos controles com databind
 
 [Link](parte4.md)
+
+## Parte 5 - adicionando navegabilidade
+
+[Link](parte5.md)
