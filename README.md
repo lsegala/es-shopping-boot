@@ -61,3 +61,7 @@ providers: [ShoppingService]
 ## Parte 5 - adicionando navegabilidade
 
 [Link](parte5.md)
+
+## Parte 6 - realizando a carga dos dados
+
+[Link](https://github.com/lsegala/es-shopping-boot-api)
