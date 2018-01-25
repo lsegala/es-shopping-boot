@@ -65,3 +65,7 @@ providers: [ShoppingService]
 ## Parte 6 - realizando a carga dos dados
 
 [Link](https://github.com/lsegala/es-shopping-boot-api)
+
+## Parte 7 - paginando os resultados
+
+[Link](parte7.md)
