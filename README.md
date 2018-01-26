@@ -69,3 +69,7 @@ providers: [ShoppingService]
 ## Parte 7 - paginando os resultados
 
 [Link](parte7.md)
+
+## Parte 8 - além da busca
+
+[Link](parte8.md)
