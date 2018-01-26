@@ -111,19 +111,3 @@ menu.component.html
 <!--<input pInputText [(ngModel)]="query"...-->
 <p-autoComplete [style]="{'width':'100%'}" [inputStyle]="{'width':'100%'}" [(ngModel)]="query" [suggestions]="sugestoes" (completeMethod)="sugerir($event)" (keyup.enter)="buscar()"></p-autoComplete>
 ```
-
-
-```
-```
-
-```
-```
-
-```
-```
-
-```
-```
-
-```
-```
